@@ -1,0 +1,79 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTA: Agregue el siguiente elemento <META> a su página <HEAD>.  Si es   -->
+<!--  preciso, modifique el parámetro charset para especificar el conjunto    -->
+<!--  de caracteres de su página HTML.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTA: Agregue el siguiente elemento <FORM> a su página.                 -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+    
+    <input type=hidden name="oid" value="00D8b0000032DDL">
+    <input type=hidden name="retURL" value="http://www.google.com">
+    
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTA: Estos campos son elementos de depuración opcionales. Elimine      -->
+    <!--  los comentarios de estas líneas si desea realizar una prueba en el      -->
+    <!--  modo de depuración.                                                     -->
+    <!--  <input type="hidden" name="debug" value=1>                              -->
+    <!--  <input type="hidden" name="debugEmail"                                  -->
+    <!--  value="verocaparroz@gmail.com">                                         -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <label for="salutation">Tratamiento</label><select  id="salutation" name="salutation"><option value="">--Ninguno--</option><option value="Mr.">Mr.</option>
+    <option value="Ms.">Ms.</option>
+    <option value="Mrs.">Mrs.</option>
+    <option value="Dr.">Dr.</option>
+    <option value="Prof.">Prof.</option>
+    <option value="Mx.">Mx.</option>
+    <option value="Sr.">Sr.</option>
+    <option value="sres.">sres.</option>
+    <option value="Sra.">Sra.</option>
+    <option value="Srita.">Srita.</option>
+    <option value="X">X</option>
+    <option value="Otros">Otros</option>
+    </select><br>
+    
+    <label for="first_name">Nombre</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+    
+    <label for="last_name">Apellidos</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+    
+    <label for="company">Compañía</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+    
+    <label for="country">País</label><input  id="country" maxlength="40" name="country" size="20" type="text" /><br>
+    
+    <label for="phone">Teléfono</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+    
+    <label for="mobile">Móvil</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+    
+    <label for="doNotCall">No llamar</label><input  id="doNotCall" name="doNotCall" type="checkbox" value="1" /><br>
+    
+    <label for="email">Correo electrónico</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    
+    <label for="emailOptOut">No recibir correos electrónicos</label><input  id="emailOptOut" name="emailOptOut" type="checkbox" value="1" /><br>
+    
+    Nombre de contacto:<input  id="00N8b00000I2L8u" maxlength="18" name="00N8b00000I2L8u" size="20" type="text" /><br>
+    
+    Telefono de contacto:<input  id="00N8b00000I2LAH" maxlength="40" name="00N8b00000I2LAH" size="20" type="text" /><br>
+    
+    Tipo de donación:<select  id="00N8b00000I2J1S" name="00N8b00000I2J1S" title="Tipo de donación"><option value="">--Ninguno--</option><option value="Alimentos no perecederos">Alimentos no perecederos</option>
+    <option value="Calzado">Calzado</option>
+    <option value="Dinero">Dinero</option>
+    <option value="Otros">Otros</option>
+    <option value="Ropa">Ropa</option>
+    <option value="Tiempo">Tiempo</option>
+    </select><br>
+    
+    Tipo de operación:<select  id="00N8b00000I2PTN" name="00N8b00000I2PTN" title="Tipo de operación"><option value="">--Ninguno--</option><option value="Automáticamente">Automáticamente</option>
+    <option value="Manualmente">Manualmente</option>
+    </select><br>
+    
+    Comentarios:<textarea  id="00N8b00000I2L9J" name="00N8b00000I2L9J" type="text" wrap="soft"></textarea><br>
+    
+    <input type="submit" name="submit">
+    
+    </form>
